@@ -15,6 +15,14 @@ public class VariableExercises {
 		
 		System.out.println("Average is " + average);
 		
+//		3.	Temperature Conversion (Celsius - Fahrenheit)
+		
+		double celsius = 36.5;
+		
+		double fahrenheit = (celsius * 9/5) + 32;
+		
+		System.out.println("Temperature in celsisus = " + celsius + " in Fahrenheit = " + fahrenheit);
+		
 //		4.	Write a java program to swap values of two variables with use of third variable.
 		
 		int x = 9;
