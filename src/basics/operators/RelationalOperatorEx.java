@@ -6,8 +6,8 @@ public class RelationalOperatorEx {
 //		1.	Find the Largest of Three Numbers. For example,
 //		Input: - int a = 25, b = 40, c = 30;
 		
-		int a = 0;
-		int b = 3;
+		int a = 3;
+		int b = 5;
 		int c = 5;
 		int largest;
 		
