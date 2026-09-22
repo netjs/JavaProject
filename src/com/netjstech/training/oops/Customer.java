@@ -6,7 +6,7 @@ public class Customer {
 	private int age;
 	
 	// Constructor
-	Customer(String name, int age){
+	public Customer(String name, int age){
 		this.name = name;
 		this.age = age;
 	}
