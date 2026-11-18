@@ -11,7 +11,6 @@ public class Person {
 	
 	// no-arg constructor
 	public Person() {
-		System.out.println("New Person object is created");
 		this("", "", 0);
 //		this.firstName = "Test";
 //		this.lastName = "User";
@@ -24,15 +23,16 @@ public class Person {
 	
 	// Parameterized Constructor
 	public Person(String firstName, String lastName, int age) {
-		System.out.println("New Person object is created");
 		this.firstName = firstName;
 		this.lastName = lastName;
 		this.age = age;
 	}
-
-
+	
 	public void displayPersonDetails() {
+		//System.out.println("in method " + this);
 		System.out.println("First Name: " + firstName + " Last Name: " + lastName + " Age: "+ age);
 	}
 	
 }
+
+
